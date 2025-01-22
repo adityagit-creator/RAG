@@ -1,1 +1,1 @@
-huggingface_api_key = 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
+huggingface_api_key = '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'
