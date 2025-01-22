@@ -14,7 +14,7 @@ from langchain_community.docstore.in_memory import InMemoryDocstore
 from langchain_huggingface import HuggingFaceEndpoint
 
 from secret_api_keys import huggingface_api_key  # Set the Hugging Face Hub API token as an environment variable
-os.environ['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'] = huggingface_api_key
+os.environ['huggingface_api_key'] = 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
 
 def process_input(input_type, input_data):
     """Processes different input types and returns a vectorstore."""
